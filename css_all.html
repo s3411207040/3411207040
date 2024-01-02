@@ -111,7 +111,16 @@ padding: 5px 10px 15px 50px;
       .div_margin{
 /*上、下、左、右*/
 margin: 5px 10px 15px 20px;
-
+      }
+      /*display*/
+      .display1{
+        display: inline;
+      }
+      .display2{
+        display: block;
+      }
+      .display3{
+        display: inline-block;
       }
     </style>
 </head>
@@ -150,6 +159,22 @@ margin: 5px 10px 15px 20px;
     <div class="div_border div_padding">padding留白</div>
     <br>
     <div class="div_border div_margin">margin外間距</div>
-</div>
+    <br>
+    <div class="display1">display1</div>
+    <div class="display1">display2</div>
+    <br>
+    <span class="display2">span1</span>
+    <span class="display2">span2</span>
+    <br>
+    <div class="display3" style="width: 200px;">display3</div>
+    <div class="display3">display3</div>
+    <br>
+    <span>span1</span>
+    <span style="display: none;">span2</span>
+    <span>span3</span>
+    <br>
+    <span>span1</span>
+    <span style="visibility: hidden;">span2</span>
+    <span>span3</span>
 </body>
 </html>
